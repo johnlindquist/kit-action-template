@@ -14,4 +14,4 @@ jobs:
       - name: Script Kit
         uses: johnlindquist/kit-action@main
         with:
-          script: "./scripts/example-script.js" # The name of a script in your ./scripts dir
+          script: "example-script" # The name of a script in your ./scripts dir
