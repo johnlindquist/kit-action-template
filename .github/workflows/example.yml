@@ -1,0 +1,17 @@
+name: "example"
+on:
+  workflow_dispatch:
+  pull_request:
+  push:
+    branches:
+      - main
+
+jobs:
+  example:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: johnlindquist/kit-action
+        with:
+          script: "test-script"
+          args: "sweet"
