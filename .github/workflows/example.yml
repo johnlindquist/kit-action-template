@@ -11,6 +11,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2 # Checkout this project (including ./scripts dir)
-      - uses: johnlindquist/kit-action@v1.0.3
+      - uses: johnlindquist/kit-action@v1.0.4
         with:
           script: "./scripts/example-script.js" # The name of a script in your ./scripts dir
