@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: johnlindquist/kit-action@main
+      - uses: johnlindquist/kit-action@v1.0.1
         with:
           script: "test-script"
           args: "sweet"
