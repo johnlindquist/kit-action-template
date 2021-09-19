@@ -10,8 +10,8 @@ jobs:
   example:
     runs-on: ubuntu-latest
     steps:
-      uses: actions/checkout@v2
-      uses: johnlindquist/kit-action@main
-      with:
-        script: "test-script"
-        args: "sweet"
+      - uses: actions/checkout@v2
+      - uses: johnlindquist/kit-action@main
+        with:
+          script: "test-script"
+          args: "sweet"
